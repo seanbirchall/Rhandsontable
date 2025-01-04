@@ -136,7 +136,8 @@ rhandsontable <- function(data, colHeaders, rowHeaders, comments = NULL,
     width = width,
     height = height,
     debug = ifelse(is.null(debug) || is.na(debug) || !is.numeric(debug), 0, debug),
-    search = search
+    search = search,
+    ...
   )
 
   # create widget
